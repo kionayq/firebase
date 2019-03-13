@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  
+</head>
+<body>
+
+
+        <div class="formcontainer">
+            <input type="text" name="name" placeholder="name of resturant">
+            <input type="text" name="location" placeholder="location">
+
+            <button class="submit">hhhhhh</button>
+            <div class="resList"></div>
+        
+        
+        </div>
+
+
+
+
+
+        <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
+
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDc3qRNhoWCiKHHMIHPdbJuGl9LxH45g58",
+    authDomain: "crud-d8d3c.firebaseapp.com",
+    databaseURL: "https://crud-d8d3c.firebaseio.com",
+    projectId: "crud-d8d3c",
+    storageBucket: "",
+    messagingSenderId: "110584683911"
+  };
+  firebase.initializeApp(config);
+</script>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
